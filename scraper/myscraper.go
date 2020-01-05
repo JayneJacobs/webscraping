@@ -1,16 +1,17 @@
-package jaynejacobs
+package scraper
 
 import (
 	"fmt"
 	"github.com/gocolly/colly"
 )
 
-func JayneJacobs()  {
+func Webscraper()  {
 	//Instantiate default collector
 	fmt.Println("Starting Scrape")
 	c := colly.NewCollector(
-		colly.AllowedDomains("jaynejacobs.com", "www.udemy.com)",
+		colly.AllowedDomains("jaynejacobs.com")
 	)
+
 	c.OnHTML("a[href]", func(e *colly.HTMLElement) {
 		link := e.Attr("href")
 
