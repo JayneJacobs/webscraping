@@ -1,9 +1,9 @@
 package main
 
 import (
-	"scraper"
+	"jaynescraper"
 )
 
 func main() {
-	scraper.Webscraper()
+	jaynescraper.Webscraper()
 }

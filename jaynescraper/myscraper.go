@@ -1,4 +1,4 @@
-package scraper
+package jaynescraper
 
 import (
 	"fmt"
@@ -24,6 +24,4 @@ func Webscraper()  {
 	})
 
 	c.Visit("https://jaynejacobs.com")
-	c.Visit("https://www.udemy.com/")
-	return link
 }

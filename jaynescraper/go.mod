@@ -1,4 +1,4 @@
-module github.com/JayneJacobs/webscraping/scraper
+module github.com/JayneJacobs/webscraping/jaynescraper
 
 go 1.12
 
