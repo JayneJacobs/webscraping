@@ -5,7 +5,7 @@ import (
 	"github.com/gocolly/colly"
 )
 
-//Webscraper collects info from web
+//Myscraper collects info from web
 func Myscraper() {
 	//Instantiate default collector
 	fmt.Println("Starting Scrape")
