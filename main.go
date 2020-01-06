@@ -9,5 +9,5 @@ import (
 func main() {
 	jjscraper.JayneScraper()
 	reditscraper.Myscraper()
-	twitterscraper.Myscraper()
+	twitterscraper.MyScraper()
 }
