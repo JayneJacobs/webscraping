@@ -21,3 +21,16 @@ anything else?
 ## Procedure
 
 go get -u github.com/gocolly/colly/...
+
+Puerkitobio/goquery
+search library built on top of an xhtml package
+
+## check allowed scraping
+
+https://technicalseo.com/tools/robots-txt/
+
+1. Insert the desired URL in the URL field
+2. Past the sites robots.txt file
+3. pulldown to all robots
+
+

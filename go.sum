@@ -1,4 +1,5 @@
-github.com/JayneJacobs/gomodules v0.0.0-20191218211915-ace3ebafa3a7 h1:i4Gb2jWDdyeXpjdK8vnXdepbQnjM++XO/VmwSZaqRoY=
+github.com/JayneJacobs/webscraping/jaynescraper v0.0.0-20200105181256-3f1a0066928b h1:GS5THxBwiVvX62sfO3FipXJNoTuYAxiR06wvMa3I630=
+github.com/JayneJacobs/webscraping/jaynescraper v0.0.0-20200105181256-3f1a0066928b/go.mod h1:WPB5kOuGb2yrdyh8rx/pdQ7C5X7J2shO3GgRbjbQ5FA=
 github.com/PuerkitoBio/goquery v1.5.0 h1:uGvmFXOA73IKluu/F84Xd1tt/z07GYm8X49XKHP7EJk=
 github.com/PuerkitoBio/goquery v1.5.0/go.mod h1:qD2PgZ9lccMbQlc7eEOjaeRlFQON7xY8kdmcsrnKqMg=
 github.com/andybalholm/cascadia v1.0.0 h1:hOCXnnZ5A+3eVDX8pvgl4kofXv2ELss0bKcqRySc45o=

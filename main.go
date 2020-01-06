@@ -1,9 +1,11 @@
 package main
 
 import (
-	"jaynescraper"
+	"webscraping/jaynescraper"
+	"webscraping/reditcraper"
 )
 
 func main() {
-	jaynescraper.Webscraper()
+	jaynescraper.Myscraper()
+	reditscraper.Myscraper()
 }

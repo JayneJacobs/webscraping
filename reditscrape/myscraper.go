@@ -1,4 +1,4 @@
-package jaynescraper
+package reditscraper
 
 import (
 	"fmt"
@@ -6,11 +6,11 @@ import (
 )
 
 //Webscraper collects info from web
-func MyScraper() {
+func Myscraper() {
 	//Instantiate default collector
 	fmt.Println("Starting Scrape")
 	c := colly.NewCollector(
-		colly.AllowedDomains("jaynejacobs.com", "udemy.com"),
+		colly.AllowedDomains("reddit.com", "udemy.com"),
 	)
 
 	c.OnHTML("a[href]", func(e *colly.HTMLElement) {
@@ -24,6 +24,6 @@ func MyScraper() {
 		fmt.Println("Visiting", r.URL.String())
 	})
 
-	c.Visit("https://jaynejacobs.com")
+	c.Visit(" https://www.reddit.com/r/golang/")
 	c.Visit("https://www.udemy.com/")
 }
