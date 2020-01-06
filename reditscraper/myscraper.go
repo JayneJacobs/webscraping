@@ -24,6 +24,6 @@ func Myscraper() {
 		fmt.Println("Visiting", r.URL.String())
 	})
 
-	c.Visit(" https://www.reddit.com/r/golang/")
+	c.Visit("https://www.reddit.com/r/golang/")
 	c.Visit("https://www.udemy.com/")
 }

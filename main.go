@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	jaynescraper.Myscraper
-	reditscraper.Myscraper
+	jaynescraper.Myscraper()
+	reditscraper.Myscraper()
 }
