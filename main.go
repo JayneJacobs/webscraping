@@ -10,4 +10,5 @@ func main() {
 	jjscraper.JayneScraper()
 	reditscraper.Myscraper()
 	twitterscraper.MyScraper()
+	twitterscraper.MyCounter()
 }

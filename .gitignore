@@ -1,0 +1,7 @@
+#vscode
+*.code-workspace
+settings.json
+#
+
+.vscode
+vendor

@@ -3,5 +3,8 @@
 		{
 			"path": "/Users/jjacob151/Training/gomodules/webscraping"
 		}
-	]
+	],
+	"settings": {
+		"go.useLanguageServer": true
+	}
 }
