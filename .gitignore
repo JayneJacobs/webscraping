@@ -1,7 +1,6 @@
 #vscode
 *.code-workspace
 settings.json
-#
-
-.vscode
+.vscode/*.*
 vendor
+
