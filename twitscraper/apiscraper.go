@@ -10,7 +10,7 @@ import (
 	"time"
 )
 
-const site = "https://twitter.com/BenWinsworth/status/1214169933761908738"
+const apisite = "https://twitter.com/i/Todd_McLeod/conversation/1169751640926146560"
 
 type jtweets struct {
 	Title string
