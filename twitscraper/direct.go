@@ -6,10 +6,8 @@ import "encoding/json"
 
 import "fmt"
 
-const site = "https://twitter.com/WhiteHouse/status/1214946620053184513"
-
 // MyDirectScraper will use the status link and get the conversation
-func MyDirectScraper() {
+func MyDirectScraper(url string) {
 	c := colly.NewCollector()
 
 	tweets := []jtweets{}
@@ -20,9 +18,11 @@ func MyDirectScraper() {
 			User:  e.ChildText(".account-group .username"),
 			Tweet: e.ChildText(".tweet-text"),
 		})
+
+		// fmt.Println("This is the user", tweets[1].User)
 	})
 
-	err := c.Visit(site)
+	err := c.Visit(url)
 	if err != nil {
 		panic(err)
 	}
@@ -30,10 +30,12 @@ func MyDirectScraper() {
 	c.Wait()
 
 	tw, err := json.MarshalIndent(tweets, "", "\t")
+
 	if err != nil {
 		panic(err)
 	}
 
 	fmt.Println(string(tw))
 	fmt.Println("Number of tweets", len(tweets))
+
 }

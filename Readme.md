@@ -34,3 +34,4 @@ https://technicalseo.com/tools/robots-txt/
 3. pulldown to all robots
 
 
+git add .; git commit -m "Adding Reddit Scraper and counter"; git push; git status

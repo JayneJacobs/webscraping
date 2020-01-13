@@ -24,6 +24,6 @@ func JayneScraper() {
 		fmt.Println("Visiting", r.URL.String())
 	})
 
-	c.Visit("https://jaynejacobs.com")
+	c.Visit("http://jaynejacobs.com")
 	c.Visit("https://www.udemy.com/")
 }

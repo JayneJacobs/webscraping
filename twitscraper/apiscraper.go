@@ -28,9 +28,8 @@ func tweetRequest(next string) (*tweetResponse, error) {
 	items := url.Values{}
 	items.Set("include_available_features", "1")
 	items.Set("include_entities", "1")
-	items.Set("max_position", "1")
-	items.Set("include_entities", next)
-	url := site + "?" + items.Encode()
+	items.Set("max_position", next)
+	url := apisite + "?" + items.Encode()
 	resp, err := http.Get(url)
 	if err != nil {
 		return nil, fmt.Errorf("Error while getting tweet data: %w", err)
